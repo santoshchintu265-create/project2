@@ -17,9 +17,14 @@ else:
 """for i in range(0,6,):
     print("* "*i)"""
 
+"""import sys
 
-import sys
+sys.stdout.write("Hello World")"""
 
-sys.stdout.write("Hello World")
+
+import os
+
+os.write(1,b"hello world")
+
 
 
